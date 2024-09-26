@@ -1,9 +1,9 @@
 package Colab2
 import java.util.*
 
-fun randomDay() : String {
-    val week = arrayOf ("Monday", "Tuesday", "Wednesday", "Thursday",
-        "Friday", "Saturday", "Sunday")
+//fun randomDay() : String {
+   // val week = arrayOf ("Monday", "Tuesday", "Wednesday", "Thursday",
+       // "Friday", "Saturday", "Sunday")
 //    return week[Random().nextInt(week.size)]
 //}
 //
@@ -52,7 +52,7 @@ fun randomDay() : String {
 //    val message = "The water temperature is ${ if (temperature > 50) "too warm" else "OK" }."
 //    println(message)
 //}
-fun main() {
+// fun main() {
 //    val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
 //    val eager = decorations.filter { it [0] == 'p'}
 //    val filtered = decorations.asSequence().filter { it[0] == 'p' }
@@ -79,11 +79,11 @@ fun main() {
 //    val mysports = listOf("basketball", "fishing", "running")
 //    val myplayers = listOf("LeBron James", "Ernest Hemingway", "Usain Bolt")
 //    val mycities = listOf("Los Angeles", "Chicago", "Jamaica")
-   val mylist = listOf(mysports, myplayers, mycities)     // list of lists
-    println("-----")
-    println("Flat: ${mylist.flatten()}")
-    var dirtyLevel = 20
-    val waterFilter = { dirty : Int -> dirty / 2}
-    println(waterFilter(dirtyLevel))
-}
+   //val mylist = listOf(mysports, myplayers, mycities)     // list of lists
+    //println("-----")
+    //println("Flat: ${mylist.flatten()}")
+    //var dirtyLevel = 20
+    //val waterFilter = { dirty : Int -> dirty / 2}
+    //println(waterFilter(dirtyLevel))
+//}
 
